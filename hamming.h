@@ -1,0 +1,11 @@
+void dec2bin(int n, int a);
+void createMatrix (int righe, int colonne);
+int power (int base, int exponent);
+int HammingDistance (int * word1, int* word2);
+int findParity (int N);
+int countparity (int number,int righe,int colonne);
+void createWord (int word[],int neword[],int data);
+void findPosition (int vett[],int number, int righe, int colonne);
+int ispowof2 (int n);
+int postoValue (int vett[],int n,int righe,int colonne);
+void createfinalWord (int word[],int neword[],int data);
