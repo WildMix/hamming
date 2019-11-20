@@ -6,8 +6,9 @@
 *       generates a word for error correction. 
 *
 * PUBLIC FUNCTIONS :
-*       int     FM_CompressFile( FileHandle )
-*       int     FM_DecompressFile( FileHandle )
+*       
+*	see 'hamming.h'
+*       
 *
 * NOTES :
 *       
