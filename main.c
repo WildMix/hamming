@@ -212,10 +212,6 @@ void createWord (int word[],int neword[],int data)  // create the word with the 
 	}
 	
 
-	for ( i = 0; i < m; i ++)
-		printf(" %d ",neword[i]);
-		
-	printf("\n");
 }
 
 
@@ -227,14 +223,11 @@ int postoValue (int vett[],int n,int righe,int colonne)  // the value of the n b
 	
 	
 	findPosition(vector,n,righe,colonne);
-	printf("vector:\n");
 	for (i = 0; i < max; i ++){
-		printf(" %d ",vector[i]);
 		a = vector[i] - 1;
 		if (vett[a] == 1)
 				count++;
 	}
-	printf("\ncount:\n%d\n",count);
 	if (count%2 == 0)
 		return 0;  // if is even must be 0
 	return 1;      // else, 1
