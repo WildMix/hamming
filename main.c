@@ -35,15 +35,15 @@ int matrix [30][30];
 int main()
 {
 	int word [8] = {0,1,0,1,1,1,0,0};
-	int vett[8], vett2[8];
+	int vett[8], vett2[8], i;
 	createWord(word,vett,8);
-	for (int i = 0; i < 12; i ++)
+	for (i = 0; i < 12; i ++)
 		printf(" %d ",vett[i]);
 	printf("\n");
 	createfinalWord(vett,vett2,8);
-	for (int i = 0; i < 12; i ++)
+	for (i = 0; i < 12; i ++)
 		printf(" %d ",vett2[i]);
-
+	printf("\n");
  
  }
 
